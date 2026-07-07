@@ -34,6 +34,8 @@ int main() {
 
         case 1145: printf("Logging in .... \n"); sleep(ONE_SECOND); printf("Hello, Mina!\n");  break;
 
+        case 67: printf("Really 😑\n") sleep(ONE_SECOND); printf("Get out!\n");
+        
         default:    printf("Logging in ....\n"); sleep(ONE_SECOND); 
                     printf("Wrong ID!\n"); sleep(ONE_SECOND); 
                     printf("Intruder Detected!\n"); sleep(ONE_SECOND); 
