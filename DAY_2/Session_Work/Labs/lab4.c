@@ -8,6 +8,7 @@ int main() {
     scanf("%d", &number);
 
     int count = number;
+
     while(count > 1) {
         factorial *= count--;
     }
