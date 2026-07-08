@@ -5,7 +5,7 @@ void print_hello(void) {
     printf("Hello, world!\n");
 }
 
-char get_operation() { // get the operation 
+char get_operation() { // fucntion to get the operation 
     char op;
     printf("What operation do you want?: (+ , - , * , /) ");
     scanf(" %c", &op);
