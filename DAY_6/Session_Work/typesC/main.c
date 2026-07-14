@@ -5,15 +5,21 @@ struct Employee {
     u8 ID;
     u16 Salary;
     u8* Name;
-} __attribute__((packed));
-
-int main() {
-
-    struct Employee Yahia = {
+} 
+    // initialize structs
+    Yahia = {
         .ID = 1,
         .Salary = 10000,
         .Name = "Yahia",
+    },
+    
+    Ahmed = {
+        .ID = 2,
+        .Salary = 12000,
+        .Name = "Ahmed",
     };
+
+int main() {
 
     printf("%lu\n", sizeof(struct Employee));
 
