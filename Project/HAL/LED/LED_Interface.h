@@ -1,9 +1,6 @@
 #ifndef LED_INTERFACE_H
 #define LED_INTERFACE_H
 
-#define ACTIVE_LOW 0
-#define ACTIVE_HIGH 1
-
 /* Configuration table */
 typedef struct {
     u8 PortID;

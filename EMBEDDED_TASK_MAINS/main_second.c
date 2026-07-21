@@ -14,7 +14,7 @@
 #define EIGHT  0b01111111
 #define NINE   0b01101111
 
-const u8 arr[10] = { ZERO, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE };
+const u8 arr[10] = { ZERO, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE};
 
 int main(void) {
 
